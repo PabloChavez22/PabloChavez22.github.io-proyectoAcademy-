@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">    
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        <meta name="description" content="Roughly 155 characters">
+        <script src="https://kit.fontawesome.com/8fa71a03bd.js" crossorigin="anonymous"></script>
+        <title>cv-Ticmas</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <script defer src="index.js"></script>
+    </head>
+
+    <body> 
+        <header class="header" id="header">
+            <nav class="navigation">
+                <img  src="media/logo_ticmas.webp" alt="logo_ticmas" class="logo">
+              
+                <button class="navigation-toggle" aria-label="Abrir menú">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                 <ul class="navigation-menu">
+                    <il class="navigation-menu-item"><a href="#informacion" class="nav-menu-link navigation-link">Informacion</a></il>
+                    <il class="navigation-menu-item"><a href="#experiencia" class="nav-menu-link navigation-link">Experiencia</a></il>
+                    <il class="navigation-menu-item"><a href="#habilidades" class="nav-menu-link navigation-link">Habilidades</a></il>
+                    <il class="navigation-menu-item"><a href="#contacto" class="nav-menu-link navigation-link nav-menu-link_active">Contacto</a></il>
+                </ul>
+            </nav>
+        </header>
+
+
+       <!--  pagina creada por @Pablo -- linkedin: https://www.linkedin.com/in/pablo-chavez-developer  --> 
+
+
+        <main>
+            <div>
+                <section class="card">
+                    <div>
+                        <div class="card-titles">
+                            <a name="informacion" class="item"></a>
+                            <h1>Información</h1>
+                        </div>
+
+                        <div class="card-text">
+                            <img class="profile-image" src="media/image_perfil_ticmas.jpg" alt="imagen_perfil">
+                            <div id="texto">
+                                <p>Hola, mi nombre es <b>Addison Franklin</b></p>
+                                <p>Soy una persona apacionada a la tecnología. Encuentro inspiración en la naturaleza.</p>
+                                <p>Me gusta tomar riesgos, explorar nuevos lugares, ideas, comidas y nuevas oportunidades.</p>
+                                <p>Tengo 29 años.</p>
+                                <p>Mi dirección email es addison.franklin@example.com </p>
+                                <p>Mi dirección es 142 Ranchview Dr, texas, EE.UU.</p>
+                                <p>En la pestaña contacto tendran más información sobre como contactarme o también pueden clickear en contactar.</p>
+                            </div>
+                            <a href="#contacto" id="center">Contactar</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <div>
+                        <div class="card-titles">
+                            <a name="experiencia" class="item"></a>
+                            <h2>Experiencia</h2>
+                        </div>
+
+                        <div class="card-text">
+                            <p>Todo lo aprendido en Argentina programa y Academy Ticmas</p>
+                            <p>Estructura de un proyecto web, utilización de la consola de desarrollador Chrome</p>
+                            <p>Utilización de editores de texto.</p>
+                            <p>La realización de esta página web con este CV.</p>
+                            <div class="video">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/J6e5jsMkBQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>    
+                    </div>                    
+                </section>
+
+                <section class="card">
+                    <div>
+                        <div class="card-titles">
+                            <a name="habilidades" class="item"></a>
+                            <h2>Habilidades</h2>
+                        </div>
+                        <div class="card-text">
+                            <ul>
+                                <li><p>Creación de paginas html, css, Javascript con editores de texto</p></li>
+                                <li><p>Incluir imagenes, videos y audio en los html, utilización de tags</p></li>
+                                <li><p>Elementos en bloque, linea, formularios</p></li>
+                                <li><p>En CSS diseñar las páginas con colores, tipografía, hacer los diseños a medida, aplicando buenas prácticas, tanto inLine, interno y archivos CSS externos.</p></li>
+                                <li><p>Selectores en CSS, selectores de ID</p></li>
+                                <li><p>Meta viewport para configurar la interpretación de paginas web en diferentes navegadores y resoluciones con media queries</p></li>
+                                <li><p>Frameworks CSS</p></li>
+                                <li><p>Utilización de Git y Github</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card contact">
+                    <div class="card-titles titulo">
+                        <a name="contacto" class="item"></a>
+                        <h2>Contacto</h2>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-details-group card-text">
+                            <p class="contact-label">Dirección: </p>
+                            <p>142 Ranchview Dr, texas, EE.UU.</p>
+                        </div>
+                        <div class="contact-details-group card-text">
+                            <p class="contact-label">Email: </p>
+                            <p>addison.franklin@example.com</p>
+                        </div>
+
+                        <div class="contact-details-group card-text">
+                            <p class="contact-label">Teléfono:</p>
+                            <p>(638) 234-2232</p>
+                        </div>
+
+                        <div class="contact-details-group card-text">
+                            <p>Deje su mensaje y con gusto le responderé.</p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="contact-form-group card-text">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name" placeholder="Ingrese su Nombe"/required>
+                        </div>
+                        <div class="contact-form-group card-text">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Ingrese su Email"/required>
+                        </div>
+
+                        <div class="contact-form-group card-text">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" placeholder="Ingrese su Número Telefónico">
+                        </div>
+
+                        <div class="contact-form-group card-text">
+                            <label for="country">País</label>
+                            <select name="country" id="country">
+                                <option value="ninguno"></option>
+                                <option value="argentina">Argentina</option>
+                                <option value="brasil">Brasil</option>
+                                <option value="colombia">Colombia</option>
+                                <option value="mexico">México</option>
+                                <option value="uruguay">Uruguay</option>
+                                <option value="paraguay">Paraguay</option>
+                                <option value="peru">Perú</option>
+                                <option value="eeuu">EE.UU.</option>
+                                <option value="otro">otro...</option>
+                            </select>
+                        </div>
+
+                        <div class="contact-form-group card-text">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" rows="6" placeholder="Ingrese mensaje..."/required></textarea>
+                        </div>
+
+                        <button type="submit" class="contact-form-submit card-text">Enviar</button>
+                    </form>
+
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.297292107945!2d-96.94979158536704!3d32.91674278415612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c284380604dc3%3A0x4abc9009c3b7f13b!2s142%20Ranchview%20Dr%2C%20Irving%2C%20TX%2075063%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1675192224718!5m2!1ses-419!2sar" width="100%;" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <nav class="social">
+                        <ul class="social-list">
+                            <li class="social-item"><a href="#contacto"><img src="media/linkedinblack_logo.png" alt="linkedin"></a></li>
+                            <li class="social-item"><a href="#contacto"><img src="media/github_logo.png" alt="github"></a></li>
+                            <li class="social-item"><a href="#contacto"><img src="media/youtube_logo.png" alt="youtube"></a></li>
+                            <li class="social-item"><a href="#contacto"><img src="media/twitter_logo.png" alt="twitter"></a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#"><img src="media/logo_ticmas.webp" alt="Logo_ticmas"></a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>Sobre la Página</h2>
+                    <p>Página diseñada por <b>@Pablo</b></p>
+                    <p>Proyecto final integrador para Front end Academy</p>
+                    <p>Usuario generado por <b>randomuser.me</b> con datos personales de personas ficticias</p>
+                    <p>Cambiar color de página:</p>
+                    <div class="colores">
+                        <button type="button" class="redondo azul" id="c_azul"></button>
+                        <button type="button" class="redondo rojo" id="c_rojo"></button>
+                        <button type="button" class="redondo verde" id="c_verde"></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Contacto</h2>
+                    <nav class="social">
+                        <ul class="social-list">
+                            <li class="social-item"><a href="https://www.linkedin.com/in/pablo-chavez-developer/"><img src="media/linkedinblack_logo.png" alt="linkedin"></a></li>
+                            <li class="social-item"><a href="https://github.com/PabloChavez22"><img src="media/github_logo.png" alt="github"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2023 <b>Ticmas</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+    </body>
+
+    
+</html>
